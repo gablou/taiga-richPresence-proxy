@@ -20,3 +20,4 @@ app.post('/taiga', urlencodedParser, (req, res) => {
 });
 
 app.listen(5000);
+console.log('Started, waiting for taiga...');
